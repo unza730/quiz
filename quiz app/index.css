@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("m.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1.5px);
+  
+}
+.main-container{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    min-height: 86vh;
+    border-top: 2px solid rgba(255, 255, 255, 0.541);
+    border-left: 2px solid rgba(255, 255, 255, 0.541);
+
+}
+.inner-container{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 10px;
+    width: 28rem;
+    height: 29rem;
+}
+.inner-container h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0.1rem;
+}
+.inner-container ul li {
+    list-style: none;
+    font-size: 22px;
+   margin-left: 5rem;
+}
+.inner-container li{
+    font-size: 1rem;
+    margin-top: 0.7rem;
+}
+#submit{
+    margin: 2rem;
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* border: none; */
+  margin-left: 10rem;
+}
+#submit:hover{
+  
+    cursor: pointer;
+    background-color: black;
+    color: white;
+   }
+input:hover{
+    cursor: pointer;
+}
+#showScore{
+    /* margin: 1rem; */
+    width: 20rem;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    /* margin: 2rem; */
+    height: 5rem;
+    margin-top: -1rem;
+    margin-bottom: 25px;
+    margin-left: 2.2rem;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+#btn{
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    padding: 7px;
+    font-weight: bolder;
+    font-size: 13px;
+    border: none;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.scoreArea{
+    display: none;
+}
